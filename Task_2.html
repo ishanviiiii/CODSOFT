@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Creative Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00b894, #0984e3);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .intro h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #2d3436;
+    }
+
+    .intro p {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      color: #636e72;
+    }
+
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .column {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+      flex: 1;
+      min-width: 280px;
+      max-width: 350px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .column:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .column h3 {
+      margin-bottom: 10px;
+      color: #0984e3;
+    }
+
+    .column p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .cta-button {
+      margin-top: 40px;
+      padding: 14px 28px;
+      background-color: #00cec9;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    .cta-button:hover {
+      background-color: #00b894;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #2d3436;
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .intro h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Creative Landing Page</h1>
+    <p>Design, Structure, and Style with HTML & CSS</p>
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <h2>Welcome, Innovator!</h2>
+      <p>Start your journey with HTML and CSS by building an engaging and beautifully structured landing page.</p>
+    </section>
+
+    <section class="columns">
+      <div class="column">
+        <h3>📐 Layout Skills</h3>
+        <p>Master the basics of sections, columns, headers, and footers while organizing content logically.</p>
+      </div>
+      <div class="column">
+        <h3>🎨 Styling Power</h3>
+        <p>Experiment with colors, spacing, fonts, and hover effects to give your page a fresh, modern vibe.</p>
+      </div>
+      <div class="column">
+        <h3>🚀 Boost Creativity</h3>
+        <p>Unleash your ideas and customize the design. Make your landing page both eye-catching and user-friendly.</p>
+      </div>
+    </section>
+
+    <button class="cta-button">Get Started Now</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 | Your First Creative Landing Page | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
